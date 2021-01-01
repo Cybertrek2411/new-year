@@ -18,14 +18,14 @@ html{
   font-weight: 700;
   color: #f48fb1;
   text-align: center;
-  position: absolute;
+  position: relative;
   top: 50%;
   opacity: 0;
   -webkit-animation: in_happy 2s ease-in-out 7s forwards;
           animation: in_happy 2s ease-in-out 7s forwards;
 }
 .new_year{
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
@@ -44,7 +44,7 @@ html{
   color: #7a8fe8;
 }
 span.eight{
-  position: absolute;
+  position: relative;
   top: 50%;
   right: 50%;
   margin-right: -200px;
@@ -52,7 +52,7 @@ span.eight{
           animation: out_2018 5s ease-in-out 5s forwards;
 }
 span.nine{
-  position: absolute;
+  position: relative;
   right: 0%;
   margin-right: -200px;
   -webkit-animation: in_2019 6s ease-in-out forwards;
@@ -69,7 +69,7 @@ span.nine:before{
           transform: rotate(0deg);
   -webkit-transform-origin: left top;
           transform-origin: left top;
-  position: absolute;
+  position: relative;
   top: 55px;
   left: 10px;
   z-index: -1;
@@ -82,7 +82,7 @@ span.nine:before{
   display: block;
   background: #ffd500;
   border-radius: 50%;
-  position: absolute;
+  position: relative;
   top: 50%;
   margin-top: -165px;
   right: 0%;
@@ -97,7 +97,7 @@ span.nine:before{
   border-style: solid;
   border-width: 0 10px 20px 10px;
   border-color: transparent transparent #f3e309 transparent;
-  position: absolute;
+  position: relative;
   left: 50%;
   margin-left: -10px;
   bottom: -10px;
@@ -110,7 +110,7 @@ span.nine:before{
   display: block;
   background: #fff;
   border-radius: 0px 0px 3px 3px;
-  position: absolute;
+  position: relative;
   left: 50%;
   margin-left: -2px;
   bottom: -110px;
@@ -119,14 +119,14 @@ span.nine:before{
   width: 100%;
   height: 100%;
   display: block;
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   overflow: hidden;
 }
 .fireworks>div{
   border: 2px solid #fff;
-  position: absolute;
+  position: relative;
   opacity: 0;
   -webkit-animation: drop_fireworks 1.5s ease-in-out 8s forwards;
           animation: drop_fireworks 1.5s ease-in-out 8s forwards;
@@ -151,7 +151,7 @@ span.nine:before{
   width: 6px;
   height: 6px;
   display: block;
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   opacity: 0;
@@ -176,7 +176,7 @@ span.nine:before{
   height: 50px;
   display: block;
   background: #f5cc06;
-  position: absolute;
+  position: relative;
   top: -60px;
   left: 2px;
 }
@@ -186,7 +186,7 @@ span.nine:before{
   height: 50px;
   display: block;
   background: #f5cc06;
-  position: absolute;
+  position: relative;
   bottom: -60px;
   left: 2px;
 }
@@ -197,7 +197,7 @@ span.nine:before{
   display: block;
   border-radius: 50%;
   background: #fff;
-  position: absolute;
+  position: relative;
   top: -15px;
   left: 10px;
 }
@@ -208,7 +208,7 @@ span.nine:before{
   display: block;
   border-radius: 50%;
   background: #fff;
-  position: absolute;
+  position: relative;
   top: -15px;
   right: 10px;
 }
